@@ -4,7 +4,10 @@
   "description": "This is a NodeJS based web-scraper for mobilgo.eu",
   "main": "index.js",
   "scripts": {
-    "start": "node index"
+    "get_empty": "node get_all_items",
+    "get_all": "node get_item",
+    "get_csv": "node get_csv",
+    "scraped_amout": "node get_scraped_amount"
   },
   "author": "Lawrence L. Toldi",
   "license": "ISC",
