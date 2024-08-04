@@ -1,0 +1,17 @@
+{
+  "name": "hasznaltauto-scraper",
+  "version": "1.0.0",
+  "description": "This is a NodeJS based web-scraper for mobilgo.eu",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "Lawrence L. Toldi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.3",
+    "cheerio": "^1.0.0-rc.12",
+    "fs": "^0.0.1-security",
+    "json2csv": "^6.0.0-alpha.2"
+  }
+}
